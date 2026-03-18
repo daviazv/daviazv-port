@@ -1,4 +1,4 @@
-import { PiGithubLogoBold, PiDiscordLogoBold } from "react-icons/pi";
+import { SiDiscord, SiGithub } from "react-icons/si";
 
 export function Footer() {
   return (
@@ -15,7 +15,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-xs text-subtle transition-colors hover:text-muted-foreground"
           >
-            <PiGithubLogoBold className="h-3.5 w-3.5" />
+            <SiGithub className="h-3.5 w-3.5" />
             GitHub
           </a>
 
@@ -27,7 +27,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-xs text-subtle transition-colors hover:text-muted-foreground"
           >
-            <PiDiscordLogoBold className="h-3.5 w-3.5" />
+            <SiDiscord className="h-3.5 w-3.5" />
             Discord
           </a>
         </div>
