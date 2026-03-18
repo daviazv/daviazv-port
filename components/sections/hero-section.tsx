@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { PiGithubLogoBold, PiDiscordLogoBold, PiDotOutlineFill } from "react-icons/pi";
+import { PiDotOutlineFill } from "react-icons/pi";
+import { SiDiscord, SiGithub } from "react-icons/si";
 
 export function HeroSection() {
   return (
@@ -42,7 +43,7 @@ export function HeroSection() {
                 className="flex h-8 w-8 items-center justify-center rounded-lg border border-border/60 text-muted-foreground transition-all hover:border-border hover:bg-accent hover:text-foreground"
                 aria-label="GitHub"
               >
-                <PiGithubLogoBold className="h-4 w-4" />
+                <SiGithub className="h-4 w-4" />
               </a>
               <a
                 href="https://discord.com/users/409698127218475008"
@@ -51,7 +52,7 @@ export function HeroSection() {
                 className="flex h-8 w-8 items-center justify-center rounded-lg border border-border/60 text-muted-foreground transition-all hover:border-border hover:bg-accent hover:text-foreground"
                 aria-label="Discord"
               >
-                <PiDiscordLogoBold className="h-4 w-4" />
+                <SiDiscord className="h-4 w-4" />
               </a>
             </div>
           </div>
